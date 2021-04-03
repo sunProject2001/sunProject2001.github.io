@@ -1,0 +1,43 @@
+#HERO{
+
+
+    height:100vh;
+    width:100%;
+    background:red;
+    display: flex;
+    justify-content: safe;
+  
+
+}
+
+#HERO video{
+ width:100%;
+ height:100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: 5;
+ object-fit: cover;
+
+
+
+} 
+
+#HERO .texture{
+
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 12;
+    background:url('../cross-stripes.png');
+}
+
+#HERO .head{
+
+    position: relative;
+    z-index: 20;
+    justify-content: right;
+    padding-right: 3cm;
+}
